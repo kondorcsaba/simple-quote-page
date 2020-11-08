@@ -1,9 +1,49 @@
+@media (min-width: 320px) and (max-width: 999px) {
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-image: url('assets/31189.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: burlywood;
+}
+  #textbox {
+  width: 1000px;
+  height: auto;
+  text-align: center;
+  font-weight: 100;
+  margin: 200px;
+}
+h1 {
+  font-family: "Bellota Text";
+  font-size: 1.1em;
+  letter-spacing: .15em;
+  text-shadow: 1px 1px brown;
+}
+h2 {
+  font-family: "Bellota Text";
+  font-size: .5em;
+  padding: 18px;
+  text-shadow: 1px 1px brown;
+}
+
+
+
+  // Mobile and tablet CSS
+
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
 }
+
+
 body {
   display: flex;
   justify-content: center;
@@ -35,5 +75,11 @@ h2 {
   padding: 18px;
   text-shadow: 2px 2px brown;
 }
+
+
+
+
+
+
 
 
