@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-image: url('assets/freedom.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#textbox {
+  width: 800px;
+  height: auto;
+  text-align: center;
+  font-weight: 100;
+  margin: 200px;
+}
+h1 {
+  font-family: "Bellota Text";
+  font-size: 1.41em;
+  letter-spacing: .2em;
+}
+h2 {
+  font-family: "Bellota Text";
+  font-size: .7em;
+  padding: 13px;
+}
+
+
